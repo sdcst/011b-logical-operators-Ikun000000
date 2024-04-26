@@ -25,4 +25,10 @@ Enter a number: 36
 Enter a number: 16
 16 is not frue
 """
-
+a=int(input("Number:"))
+x=a%6
+y=a%8
+if x==0 and y!=0:
+    print(f"{a}is ture")
+else:
+    print(f"{a}is not ture")

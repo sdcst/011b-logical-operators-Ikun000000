@@ -26,3 +26,11 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+a=int(input("Number:"))
+a1=int(input("Another Number:"))
+if a>a1 and a%a1==0:
+    print(f"{a1}is a factor of{a}")
+elif a1>a and a1%a==0:
+    print(f"{a}is not a factor of {a1}")
+else:
+    print(f"{min(a,a1)}is not a factor of {max(a,a1)}")
